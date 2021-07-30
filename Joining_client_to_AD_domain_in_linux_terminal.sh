@@ -1,7 +1,7 @@
 #Run the following commands to get a Local YUM Repository for installing required packages to add linux client to AD Domain.
 sudo mkdir /cdrom 
 sudo mount /dev/cdrom /cdrom 
-sudo mv /etc/yum.repos.d/*.repo /tmp/ 
+sudo mv /etc/yum.repos.d/.repo /tmp/ 
 sudo vi /etc/yum.repos.d/local.repo 
 #Press the enter key then type in the repository details.
  [LocalRepo]	
